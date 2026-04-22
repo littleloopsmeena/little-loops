@@ -1,0 +1,15 @@
+{
+  "name": "little-loops-by-meena-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static website plus enquiry backend for Little Loops by Meena",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "nodemailer": "^6.10.0",
+    "twilio": "^5.5.3"
+  }
+}
